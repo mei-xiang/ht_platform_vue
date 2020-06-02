@@ -1,0 +1,322 @@
+.content {
+  width: 1200px;
+  background-color: #fff;
+}
+.content .hd_title {
+  position: relative;
+  height: 80px;
+  background: linear-gradient(135deg, #0853f3 0%, #4483ff 100%);
+}
+.content .hd_title .addplan {
+  position: absolute;
+  top: 30px;
+  right: 17px;
+  color: #fff;
+}
+.content .hd_title .add {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+.content .hd_title .left {
+  position: absolute;
+  top: 22px;
+  right: 44px;
+  font-size: 22px;
+  color: #fff;
+  cursor: pointer;
+}
+.content .query {
+  height: 136px;
+  display: flex;
+  color: #4e4e4e;
+  position: relative;
+}
+.content .query > div {
+  width: 236px;
+  margin-right: 28px;
+  padding: 0 0 0 51px;
+}
+.content .query > div label {
+  display: block;
+  margin: 21px 0 9px 0;
+}
+.content .query /deep/ span {
+  line-height: 44px;
+  height: 44px;
+}
+.content .query .ivu-btn {
+  width: 80px;
+  height: 44px;
+  position: absolute;
+  top: 55px;
+  right: 56px;
+}
+.content /deep/ .ivu-input,
+.content /deep/ .ivu-select {
+  height: 44px;
+  line-height: 44px;
+  width: 236px;
+}
+.content /deep/ span {
+  display: inline !important;
+}
+.content /deep/ .ivu-select-selection {
+  height: 44px;
+  width: 236px;
+  color: #4e4e4e;
+}
+.content /deep/ .ivu-select-dropdown {
+  width: 236px;
+  min-width: 0 !important;
+}
+.content .placeholder {
+  width: 100%;
+  height: 385px;
+  padding-top: 120px;
+  text-align: center;
+  border-top: 5px solid #f5f5f5;
+  margin-top: 10px;
+  color: #666;
+}
+.dialog {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(9, 9, 9, 0.5029);
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dialog .content {
+  width: 500px;
+  height: 270px;
+  min-height: 270px;
+  background-color: #fff;
+  position: relative;
+}
+.dialog .content .title {
+  padding: 0 80px 0 35px;
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #333;
+  overflow: hidden;
+  background-color: #f8f8f8;
+  border-radius: 2px 2px 0 0;
+  position: relative;
+}
+.dialog .content .title .close {
+  position: absolute;
+  right: 22px;
+  top: 0;
+  cursor: pointer;
+}
+.dialog .content .bottom {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border-top: 1px solid #ccc;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+}
+button {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #1e9fff;
+  color: #fff;
+  margin: 5px 5px 0;
+  border-radius: 2px;
+  font-weight: 400;
+  cursor: pointer;
+  text-align: center;
+}
+.addPlan .box {
+  padding: 30px 15px 0 20px;
+  position: relative;
+  height: 170px;
+}
+.look_approval .content {
+  width: 1000px;
+  height: 650px;
+  position: relative;
+  z-index: 1000;
+}
+.look_approval .content .box {
+  padding: 30px;
+}
+.look_approval .content .bottom {
+  justify-content: center;
+  align-items: center;
+}
+.look_approval .content .bottom button {
+  width: 103px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #0099ff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: 700;
+  color: #fff;
+}
+.commit .content .box {
+  position: relative;
+  height: 173px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commit .content .box span {
+  font-size: 18px;
+}
+.ehsAnualPlanDetail {
+  min-height: 400px;
+}
+.ehsAnualPlanDetail .ivu-form-input-boxs {
+  border: 1px solid #f5f5f5;
+}
+.ehsAnualPlanDetail .item {
+  border-top: 5px solid #f5f5f5;
+}
+.ehsAnualPlanDetail .item .title {
+  padding-left: 53px;
+  height: 58px;
+  line-height: 58px;
+}
+.ehsAnualPlanDetail .item .title .circle {
+  display: inline-block !important;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 3px solid #0853f3;
+  vertical-align: middle;
+  margin-right: 6px;
+}
+.ehsAnualPlanDetail .item textarea {
+  min-height: 100px;
+  border: none;
+  outline: none;
+  border-top: 1px solid #f5f5f5;
+  padding: 23px 0 0 81px;
+  color: #a0a3a4;
+}
+.ehsAnualPlanDetail .bottom {
+  background-color: #f5f5f5;
+  text-align: right;
+  padding-top: 100px;
+}
+.ehsAnualPlanDetail .bottom button {
+  width: 80px;
+  height: 42px;
+  background: #397afd;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 500;
+}
+.main {
+  width: 1200px;
+  background-color: #fff;
+}
+.main button {
+  position: absolute;
+  width: auto;
+  padding: 9px 22px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin: 0;
+  height: 44px;
+}
+.main .info {
+  position: relative;
+  padding-bottom: 100px;
+}
+.main .info button {
+  right: 30px;
+  bottom: 40px;
+  background-color: #397afd;
+}
+.main .opinion {
+  position: relative;
+  padding-bottom: 80px;
+  margin-bottom: 40px;
+}
+.main .opinion .cancel {
+  right: 136px;
+  bottom: 0;
+  background-color: #c7c7c7;
+}
+.main .opinion .put {
+  right: 46px;
+  bottom: 0;
+  background: linear-gradient(135deg, #0853f3 0%, #4483ff 100%);
+}
+.main .log {
+  border-top: 18px solid #f5f5f5;
+}
+.main /deep/ .ivu-tabs-tab {
+  width: 142px;
+  height: 64px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+.main /deep/ .ivu-tabs-bar {
+  border-bottom: 0;
+}
+.main /deep/ .ivu-tabs-tab-active {
+  background: linear-gradient(135deg, #0853f3 0%, #4483ff 100%);
+  color: white;
+}
+.main /deep/ .ivu-tabs-ink-bar {
+  background-color: transparent;
+}
+.planApprove .info {
+  padding-bottom: 30px;
+}
+.planApprove .info button {
+  top: 61px;
+  right: 55px;
+}
+.approveDetail .info {
+  padding-bottom: 30px;
+}
+.approveDetail .info button {
+  bottom: 50px;
+  right: 55px;
+}
+.drillRecordDetail .info {
+  position: relative;
+  padding-bottom: 100px;
+}
+.drillRecordDetail .info button {
+  right: 30px;
+  bottom: 40px;
+  background-color: #397afd;
+}
+.drillRecordDetail .info .put {
+  right: 0;
+}
+.drillRecordDetail .info .save {
+  background-color: #c7c7c7;
+  right: 90px;
+}
+.drillRecordDetail .info .cancel {
+  right: 180px;
+  background-color: #c7c7c7;
+}
