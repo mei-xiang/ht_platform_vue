@@ -20,7 +20,7 @@
     "lib-flexible": "^0.3.2",
     "lodash.throttle": "^4.1.1",
     "popper.js": "^1.16.1",
-    "qs": "^6.9.3",
+    "qs": "^6.9.7",
     "tinycolor2": "^1.4.1",
     "v-click-outside-x": "^3.7.1",
     "v-viewer": "^1.5.1",
